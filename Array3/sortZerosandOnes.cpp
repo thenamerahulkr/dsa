@@ -34,6 +34,7 @@ int main(){
     v.push_back(0);
     v.push_back(1);
     sortZeroesOnes(v);
+    
     //Method 1
     // int noz=0;
     // int noo=0;

@@ -16,6 +16,6 @@ string convert2Binary(int n){
 }
 int main()
 {
-    int n=13;
+    int n=64;
     cout<<"13 ka binary: "<<convert2Binary(n)<<'\n';   
 }

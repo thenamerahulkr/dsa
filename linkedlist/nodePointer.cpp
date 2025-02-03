@@ -20,6 +20,23 @@ void display(Node *head)
         temp = temp->next;
     }
 }
+void displayRec(Node *head){
+    Node *temp = head;
+    cout<<temp->data<<" ";
+    if(temp->next== NULL){
+        return;
+    }
+    displayRec(temp->next);
+    cout<<endl;
+}
+void displayRev(Node *head){
+    Node *temp = head;
+    if(temp == NULL){
+        return;
+    }
+    displayRev(temp->next);
+    cout<<temp->data<<" ";
+}
 int size(Node *head){
     Node *temp = head;
     int count =0;
@@ -41,4 +58,6 @@ int main()
     a->next = b;
     b->next = c;
     c->next = d;
+    displayRec(a);
+    displayRev(a);
 }

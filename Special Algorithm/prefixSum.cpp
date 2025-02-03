@@ -20,6 +20,6 @@ int main()
         }
     }
     if(flag==true) cout<<"It Can be Partioned"<<" "<<"index:"<<index;
-    else cout<<"Not Partioned"<<" ";
+    else cout<<"Not Partioned"<<" "; // rahul
 
 }
